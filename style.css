@@ -1,0 +1,395 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img{
+    width: 130px;
+    height: 90px;
+}
+nav h4{
+    color: rgb(204, 179, 35);
+}
+
+nav{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.one{
+    color: black;
+}
+nav ul li a:hover{
+    color: greenyellow;
+    transition: 1s;
+}
+.img2 img{
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.about h2{
+    text-align: center;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about{
+    margin-top: 10px;
+    background-color: rgb(253, 248, 243);
+    padding: 20px;
+    height: 40%;
+}
+.about p{
+    padding-left: 10px;
+    font-size: 17px;
+    padding-top: 20px;
+}
+.manage h2{
+    text-align: center;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.manage{
+    margin-top: 10px;
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+    height: 40%;
+}
+.manage p{
+    padding-left: 10px;
+    font-size: 17px;
+    padding-top: 20px;
+}
+.gallery{
+    background-color:lightcyan;
+    margin-top: 10px;
+}
+.gallery h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.display{
+    display: flex;
+    padding-left: 140px;
+    margin-top: 20px;
+}
+.gal1 img{
+    width: 350px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.gal2 img{
+    width: 350px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.gal3 img{
+    width: 350px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.display2{
+    display: flex;
+    padding-left: 140px;
+    margin-top: 30px;
+
+}
+.gal4 img{
+    width: 350px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.gal5 img{
+    width: 350px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.gal6 img{
+    width: 350px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.gal{
+    background-color: beige;
+}
+.display3{
+    display: flex;
+    padding-left: 140px;
+    margin-top: 20px;
+
+}
+.gal8 img{
+    width: 350px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.gal9 img{
+    width: 350px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.gal10 img{
+    width: 350px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.service h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+
+.service h2,p{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.service p{
+    font-size: 17px;
+}
+
+.service{
+    margin-top: 20px;
+    background-color: rgb(236, 203, 208);
+}
+
+.display4{
+    display: flex;
+    padding-left: 8px;
+    margin-top: 20px;
+
+}
+.ser1{
+    background-color: white;
+    margin-bottom: 5px;
+
+}
+.ser1 img{
+    width: 270px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ser1 p{
+    text-align: center;
+    font-size: 19px;
+}
+.ser2{
+    background-color: white;
+    margin-bottom: 5px;
+
+}
+.ser2 img{
+    width: 270px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ser2 p{
+    text-align: center;
+    font-size: 19px;
+}
+.ser3{
+    background-color: white;
+    margin-bottom: 5px;
+
+}
+.ser3 img{
+    width: 270px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ser3 p{
+    text-align: center;
+    font-size: 19px;
+}
+.ser4{
+    background-color: white;
+    margin-bottom: 5px;
+}
+.ser4 img{
+    width: 270px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ser4 p{
+    text-align: center;
+    font-size: 19px;
+}
+.ser5{
+    background-color: white;
+    margin-bottom: 5px;
+
+}
+.ser5 img{
+    width: 270px;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ser5 p{
+    text-align: center;
+    font-size: 19px;
+}
+.flex{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 25px;
+
+}
+.customer{
+    margin-top: 15px;
+    background-color:rgb(235, 229, 229); 
+    padding: 20px;
+}
+.customer h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.cus1 h4{
+    text-align: center;
+    color: rgb(59, 211, 59);
+}
+.cus1{
+    width: 20%;
+    border: 1px solid lightblue;
+    margin-left: 8%;
+    border-radius: 25px;
+}
+.cus1 p{
+    text-align: center;
+    color: rgb(82, 82, 150);
+}
+#cusp1{
+    color: brown;
+}
+#cusp2{
+    color: brown;
+}
+#cusp3{
+    color: brown;
+}
+.cus1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 28px;
+    margin-left: 53px;
+}
+.cus2 h4{
+    text-align: center;
+    color: rgb(59, 211, 59);
+}
+.cus2{
+    width: 20%;
+    border: 1px solid lightblue;
+    border-radius: 25px;
+    margin-left: 10%;
+}
+.cus2 p{
+    text-align: center;
+    color: rgb(82, 82, 150);
+}
+.cus2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 28px;
+    margin-left: 53px;
+}
+.cus3 h4{
+    text-align: center;
+    color: rgb(59, 211, 59);
+}
+.cus3{
+    width: 20%;
+    border: 1px solid lightblue;
+    margin-left: 10%;
+    border-radius: 25px;
+}
+.cus3 p{
+    text-align: center;
+    color: rgb(82, 82, 150);
+}
+.cus3 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 28px;
+    margin-left: 53px;
+}
+.contact h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.contact{
+    background-color: rgb(199, 173, 173);
+    margin-top: 15px;
+
+}
+
+.con1 img{
+    width: 500px;
+    height: 300px;
+}
+.project{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.project{
+    margin-top: 15px;
+    background-color: rgb(150, 224, 222);
+}
+.ongo1 img{
+    height: 250px;
+    width: 250px;
+}
+.ongo2 img{
+    height: 250px;
+    width: 250px;
+}
+.ongo3 img{
+    height: 250px;
+    width: 250px;
+}
+.ongo4 img{
+    height: 250px;
+    width: 250px;
+}
+.address{
+    margin-top: 15px;
+    background-color: rgb(31, 27, 27);
+}
+.address h4{
+    color: white;
+}
+
+
+
+
+
+    
